@@ -1,0 +1,22 @@
+class Solution {
+    public int differenceOfSums(int n, int m) {
+        int num1=0;
+        int num2 =0;
+        for(int i=1; i<=n;i++){
+            int ar[]=new ar[i];
+            if(ar[i]%3!=0){
+                  num1 = ar[i]+ num1;
+            }
+            else{
+                num2 = arr[i]+num2;
+            }
+        }
+        System.out.print(num1-num2);
+    }
+    public static void main(String[] args){
+        Scanner df= new Scanenr(System.in);
+        int n = df.nextInt();
+        int m = df.nextInt();
+        differenceOfSums(n,m);
+    }
+}
